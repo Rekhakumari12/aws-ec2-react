@@ -48,7 +48,7 @@ function App() {
               (!error.error && isRegister) ? <center><h6 className="text-success">Registration Successfull</h6></center> : ""
             }
         <Form.Group className="mb-3 form-group" controlId="formUsername">
-          <Form.Label>Name</Form.Label>
+          <Form.Label>Enter Name</Form.Label>
               <Form.Control
                 type="text"
                 placeholder="Enter name"
